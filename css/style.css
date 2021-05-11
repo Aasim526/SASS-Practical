@@ -212,8 +212,9 @@ html {
 
 @media only screen and (max-width: 692px) {
   #about {
-    -ms-flex-line-pack: distribute;
-        align-content: space-around;
+    -webkit-box-align: space-around;
+        -ms-flex-align: space-around;
+            align-items: space-around;
   }
 }
 

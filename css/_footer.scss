@@ -1,0 +1,27 @@
+.left-footer{
+    width: 50%;
+    @media only screen and (max-width:611px){
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    p{
+        font-size: 1.2rem;
+        color: #bebebe;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+    }
+}
+.right-footer{
+    width: 50%;
+    text-align: right;
+    @media only screen and (max-width:611px){
+        width: 100%;
+        text-align: center;
+    }
+    a{
+        font-size: 1.8rem;
+        padding-left: 1.5rem;
+        color: $primary_color;
+    }
+}

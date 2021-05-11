@@ -1,0 +1,42 @@
+#about{
+    min-height: 100vh;
+    align-content: center;
+    @media only screen and (max-width:692px){
+        align-content: space-between;
+    }
+
+    .border{
+        border-right: 1px solid #dfdfdfa2;
+        border-left: 1px solid #dfdfdfa2;
+        @media only screen and (max-width:692px){
+            border: 0;
+        }
+    }
+    .about-box{
+        width: (100% / 3);
+        padding: 0 20px;
+        @media only screen and (max-width:692px){
+            width: 100%;
+            padding: 0 10px;
+        }
+        h3{
+            font-size: 1.6rem;
+            color: $primary_color;
+            font-weight: 300;
+            line-height: 2.1rem;
+            @media only scree and (max-width:768px){
+                line-height: 1.85rem;
+            }
+        }
+        p{
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1.8;
+            margin: 1.6rem 0;
+            color: gray;
+            @media only scree and (max-width:768px){
+                line-height: 1.65rem;
+            }
+        }
+    }
+}

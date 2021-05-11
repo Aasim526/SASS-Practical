@@ -1,0 +1,76 @@
+//=========variables========
+$primary_color : #4e82be;
+$primary_font : 'Raleway', sans-serif;
+$fff : #fff;
+$black : #000;
+
+//========mixins========
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $primary_font;
+}
+html{
+    font-size: 15px;
+    scroll-behavior: smooth;
+    @media screen and (max-width:991px){
+        font-size: 13px;
+    }
+    @media screen and (max-width:768px){
+        font-size: 12px;
+    }
+    @media only screen and (max-width:692px){
+        font-size: 10px;
+    }
+    
+}
+
+// importing home section
+@import "home";
+// importing about section
+@import "about";
+// importing team section
+@import "team";
+// importing gallery
+@import "gallery";
+// importing footer
+@import "footer";
+
+
+.inner{
+    max-width: 1270px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5%;
+}
+.flex{
+    @include flex;
+}
+
+
+img{
+    width: 100%;
+}
+.more{
+    width: 100px;
+    height: 40px;
+    background-color: $primary_color;
+    font-family: $primary_font;
+    border: 0;
+    color: $fff;
+    font-size: 1.2rem;
+    font-weight: 200;
+    @media only screen and (max-width:768px){
+        width: 80px;
+        height: 30px;
+    }
+}
+
+

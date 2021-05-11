@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Theory Layout with Flexbox</title>
+</head>
+<body>
+
+
+    <!-- header section starts -->
+    <header class="bg" id="home">
+        <nav id="navigation" class="flex" onclick="toggle()">
+            <a href="index.html">Theory<span class="gray-text"> by Aasim</span></a>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+            <span class="fa fa-bars menu"></span>
+        </nav>
+
+        <section class="banner">
+            <h1>Welcome to Theory</h1>
+            <p>A free responsive HTML5 website template by <span>Md Aasim</span></p>
+        </section>
+    </header>
+       <!-- header section starts ends -->
+
+
+       <!-- About section starts -->
+       <section id="about" class="inner flex">
+            <div class="about-box">
+                <h3>Magna tempus sed aliquam veroeros</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae ipsa aperiam mollitia quibusdam obcaecati ratione?
+                </p>
+                <button class="more">More</button>
+            </div>
+
+            <div class="about-box border">
+                <h3>Interdum lorem pulvinar adipisicing vitae</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae ipsa aperiam mollitia quibusdam obcaecati ratione?
+                </p>
+                <button class="more">More</button>
+            </div>
+
+            <div class="about-box">
+                <h3>Libero purus magna sapien sed ullamcorper</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae ipsa aperiam mollitia quibusdam obcaecati ratione?
+                </p>
+                <button class="more">More</button>
+            </div>
+       </section>
+       <!-- About section ends -->
+
+
+       <!-- Team section starts -->
+       <section id="team">
+
+            <div class="text-area">
+                <h2>Ipsum Feugiat</h2>
+                <p>Semper suscipit pocuere apede</p>
+            </div>
+
+           <div class="inner flex">
+                <div class="person">
+                    <img src="img/img2.jpg" alt="Team 1" class="img-circle">
+                    <h3>Magna Ipsum</h3>
+                    <p>Sipdum dolor</p>
+                </div>
+
+                <div class="person">
+                    <img src="img/img3.jpg" alt="Team 2" class="img-circle">
+                    <h3>Ipsum Tempus</h3>
+                    <p>Sipdum dolor</p>
+                </div>
+
+                <div class="person">
+                    <img src="img/img4.jpg" alt="Team 3" class="img-circle">
+                    <h3>Tempus Dolor</h3>
+                    <p>Sipdum dolor</p>
+                </div>
+
+                <div class="person">
+                    <img src="img/img5.jpg" alt="Team 4" class="img-circle">
+                    <h3>Dolor Magna</h3>
+                    <p>Sipdum dolor</p>
+                </div>
+           </div>
+       </section>
+       <!-- Team section ends -->
+
+
+       <!-- Gallery section starts -->
+       <section id="gallery">
+
+            <div class="text-area">
+                <h2>Nunc Dignissim</h2>
+                <p>Semper suscipit pocuere apede</p>
+            </div>
+
+            <div class="inner flex">
+                <div class="img-sec">
+                    <img src="img/img6.jpg" alt="Photo 1" class="img-thumbnail">
+                    <h3>Praesent placerat magna</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Nihil officia natus delectus quia quae explicabo veniam 
+                        earum repellat, facilis iusto hic, tempora eaque esse error.
+                    </p>
+                    <button class="more">More</button>
+                </div>
+
+
+                <div class="img-sec">
+                    <img src="img/img7.jpg" alt="Photo 2" class="img-thumbnail">
+                    <h3>Fusce pellentesque tempus</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Nihil officia natus delectus quia quae explicabo veniam 
+                        earum repellat, facilis iusto hic, tempora eaque esse error.
+                    </p>
+                    <button class="more">More</button>
+                  </div>
+            </div>
+       </section>
+       <!-- Gallery section ends -->
+
+
+       <!-- Footer section starts -->
+       <footer id="footer" class="inner flex">
+           <div class="left-footer">
+                <p>&copy; 2021, Md Aasim. All rights reserve</p>
+           </div>
+           <div class="right-footer">
+                <a href="https://www.facebook.com/MdAasim5266"><span class="fa fa-facebook"></span></a>
+                <a href="https://www.instagram.com/mdaasim526"><span class="fa fa-instagram"></span></a>
+                <a href="https://www.linkedin.com/in/MdAasim526"><span class="fa fa-linkedin"></span></a>
+                <a href="https://www.youtube.com/"><span class="fa fa-youtube"></span></a>
+                <a href="https://twitter.com/MdAasim526"><span class="fa fa-twitter"></span></a>
+           </div>
+       </footer>
+       <!-- Footer section ends -->
+
+
+
+       <!-- JavaScript starts -->
+       <script>
+           window.addEventListener('scroll', function(){
+               var a = document.querySelector("#navigation");
+               a.classList.toggle("sticky", window.scrollY > 0);
+           });
+           function toggle(){
+                var b = document.querySelector("nav")
+                b.classList.toggle("active");
+            }
+
+           
+       </script>
+        <!-- JavaScript ends -->
+</body>
+</html>

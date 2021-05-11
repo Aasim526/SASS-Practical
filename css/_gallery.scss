@@ -1,0 +1,26 @@
+#gallery{
+    .text-area{
+        @include text($primary_color);
+    }
+    .img-sec{
+        width: 41%;
+        @media only screen and (max-width:400px){
+            width: 100%;
+            margin-bottom: 2.5rem;
+        }
+        h3{
+            font-size: 1.7rem;
+            font-weight: 500;
+            line-height: 1.33rem;
+            color: $primary_color;
+            margin: 1.4rem 0;
+        }
+        p{
+            font-size: 1rem;
+            line-height: 2rem;
+            color: #bebebe;
+            font-weight: 300;
+            margin-bottom: 1.4rem;
+        }
+    }
+}

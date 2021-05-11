@@ -23,12 +23,6 @@ html {
   }
 }
 
-@media only screen and (max-width: 692px) {
-  html {
-    font-size: 10px;
-  }
-}
-
 .bg {
   width: 100%;
   height: 100vh;
@@ -218,8 +212,8 @@ html {
 
 @media only screen and (max-width: 692px) {
   #about {
-    -ms-flex-line-pack: justify;
-        align-content: space-between;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
   }
 }
 

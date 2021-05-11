@@ -30,7 +30,7 @@ html {
   background-size: cover;
   background-position: center center;
   color: #fff;
-  border-top: 0.8rem solid #4e82be;
+  border-top: 0.8rem solid #15fc00;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,7 +97,7 @@ html {
 }
 
 .bg nav a span {
-  color: #4e82be;
+  color: #15fc00;
   font-weight: 400;
 }
 
@@ -143,7 +143,7 @@ html {
 }
 
 .bg nav ul a:hover {
-  color: #4e82be;
+  color: #15fc00;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -188,7 +188,7 @@ html {
 }
 
 .bg .banner p span {
-  color: #4e82be;
+  color: #15fc00;
   font-weight: 300;
 }
 
@@ -243,7 +243,7 @@ html {
 
 #about .about-box h3 {
   font-size: 1.6rem;
-  color: #4e82be;
+  color: #15fc00;
   font-weight: 300;
   line-height: 2.1rem;
 }
@@ -271,7 +271,7 @@ html {
 #team {
   width: 100%;
   min-height: 100vh;
-  background-color: #4e82be;
+  background-color: #15fc00;
   color: #fff;
 }
 
@@ -381,7 +381,7 @@ html {
 }
 
 #gallery .text-area h2 {
-  color: #4e82be;
+  color: #15fc00;
   font-size: 3.5rem;
   font-weight: 200;
   letter-spacing: 2px;
@@ -421,7 +421,7 @@ html {
   font-size: 1.7rem;
   font-weight: 500;
   line-height: 1.33rem;
-  color: #4e82be;
+  color: #15fc00;
   margin: 1.4rem 0;
 }
 
@@ -467,7 +467,7 @@ html {
 .right-footer a {
   font-size: 1.8rem;
   padding-left: 1.5rem;
-  color: #4e82be;
+  color: #15fc00;
 }
 
 .inner {
@@ -495,7 +495,7 @@ img {
 .more {
   width: 100px;
   height: 40px;
-  background-color: #4e82be;
+  background-color: #15fc00;
   font-family: "Raleway", sans-serif;
   border: 0;
   color: #fff;
